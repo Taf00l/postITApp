@@ -223,7 +223,7 @@ body {
   display: flex;
   align-items: center; /* Vertically align items */
   padding: 10px;
-  background-color: #f8f9fa;
+  background-color: #0d3b69;
 }
 
 .nav {
@@ -237,10 +237,10 @@ body {
 
 .nav a {
   text-decoration: none; /* Remove underline */
-  color: #000; /* Set text color */
+  color: #fffc37; /* Set text color */
   margin: 0 15px; /* Add spacing between links */
 }
 
 .nav a:hover {
-  color: #007bff; /* Change color on hover (optional) */
+  color: #dd2424; /* Change color on hover (optional) */
 }

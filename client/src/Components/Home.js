@@ -6,6 +6,7 @@ import { Container, Row, Col } from "reactstrap"; //import the Reactstrap Compon
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
+import Location from "./Location";
 
 const Home = () => {
   const email = useSelector((state) => state.users.user.email);
@@ -25,6 +26,11 @@ const Home = () => {
         </Col>
         <Col md={9}>
           <SharePosts />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <Location />
         </Col>
       </Row>
       <Row>
